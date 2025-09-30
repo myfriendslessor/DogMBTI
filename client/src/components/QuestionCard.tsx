@@ -1,28 +1,21 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import AnswerButton from './AnswerButton';
+import { Button } from '@/components/ui/button';
+import type { Choice } from '@shared/questions';
 
 interface QuestionCardProps {
   questionNumber: number;
   totalQuestions: number;
   questionText: string;
-  selectedAnswer: number | null;
-  onAnswerSelect: (value: number) => void;
+  choices: Choice[];
+  selectedAnswer: string | null;
+  onAnswerSelect: (choiceId: string) => void;
 }
-
-const answerOptions = [
-  { value: 1, label: '전혀 아니다' },
-  { value: 2, label: '아니다' },
-  { value: 3, label: '약간 아니다' },
-  { value: 4, label: '보통이다' },
-  { value: 5, label: '약간 그렇다' },
-  { value: 6, label: '그렇다' },
-  { value: 7, label: '매우 그렇다' }
-];
 
 export default function QuestionCard({
   questionNumber,
   totalQuestions,
   questionText,
+  choices,
   selectedAnswer,
   onAnswerSelect
 }: QuestionCardProps) {
@@ -39,14 +32,16 @@ export default function QuestionCard({
         </div>
       </CardHeader>
       <CardContent className="space-y-3">
-        {answerOptions.map((option) => (
-          <AnswerButton
-            key={option.value}
-            value={option.value}
-            label={option.label}
-            selected={selectedAnswer === option.value}
-            onClick={() => onAnswerSelect(option.value)}
-          />
+        {choices.map((choice) => (
+          <Button
+            key={choice.id}
+            variant={selectedAnswer === choice.id ? "default" : "outline"}
+            className="w-full justify-start text-left h-auto py-4 px-6 transition-all"
+            onClick={() => onAnswerSelect(choice.id)}
+            data-testid={`choice-${choice.id}`}
+          >
+            <span className="text-base leading-relaxed">{choice.label}</span>
+          </Button>
         ))}
       </CardContent>
     </Card>

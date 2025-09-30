@@ -399,7 +399,7 @@ export const personalityTypes: Record<string, PersonalityType> = {
   }
 };
 
-export function calculateMBTI(answers: Record<number, number>): string {
+export function calculateMBTI(answers: Record<string, string>): string {
   const scores = {
     E: 0, I: 0,
     S: 0, N: 0,
@@ -408,15 +408,13 @@ export function calculateMBTI(answers: Record<number, number>): string {
   };
 
   questions.forEach(question => {
-    const answer = answers[question.id];
-    if (answer !== undefined) {
-      const score = answer;
-      const dimension = question.dimension;
-      
-      if (question.reverse) {
-        scores[dimension] += (7 - score);
-      } else {
-        scores[dimension] += score;
+    const selectedChoiceId = answers[question.id];
+    if (selectedChoiceId !== undefined) {
+      const selectedChoice = question.choices.find(c => c.id === selectedChoiceId);
+      if (selectedChoice) {
+        Object.entries(selectedChoice.weights).forEach(([dimension, weight]) => {
+          scores[dimension as keyof typeof scores] += weight;
+        });
       }
     }
   });

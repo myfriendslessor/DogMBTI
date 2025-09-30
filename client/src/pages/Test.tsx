@@ -10,7 +10,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 export default function Test() {
   const [, setLocation] = useLocation();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [answers, setAnswers] = useState<Record<number, number>>({});
+  const [answers, setAnswers] = useState<Record<string, string>>({});
 
   const currentQuestion = questions[currentQuestionIndex];
   const currentAnswer = answers[currentQuestion.id] || null;
@@ -19,10 +19,10 @@ export default function Test() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [currentQuestionIndex]);
 
-  const handleAnswerSelect = (value: number) => {
+  const handleAnswerSelect = (choiceId: string) => {
     setAnswers(prev => ({
       ...prev,
-      [currentQuestion.id]: value
+      [currentQuestion.id]: choiceId
     }));
   };
 
@@ -61,6 +61,7 @@ export default function Test() {
             questionNumber={currentQuestionIndex + 1}
             totalQuestions={questions.length}
             questionText={currentQuestion.text}
+            choices={currentQuestion.choices}
             selectedAnswer={currentAnswer}
             onAnswerSelect={handleAnswerSelect}
           />
