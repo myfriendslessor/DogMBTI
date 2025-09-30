@@ -233,9 +233,9 @@ export const questions: Question[] = [
     id: "q25",
     text: "산책 중 줄당김/리드에 대한 반응은?",
     choices: [
-      { id: "a", label: "지시에 맞춰 보조를 빠르게 조정한다", weights: { J: 1, T: 1 } },
-      { id: "b", label: "상황에 따라 속도가 자주 바뀐다", weights: { P: 1, N: 1 } },
-      { id: "c", label: "고정 보조를 유지한다", weights: { S: 1, J: 1 } }
+      { id: "a", label: "주인이 줄을 당기면 곧바로 속도를 조절하며 맞춰 걷는다", weights: { J: 1, T: 1 } },
+      { id: "b", label: "줄에 반응은 하지만 흥미로운 자극이 있으면 금방 다른 쪽으로 가려 한다", weights: { P: 1, N: 1 } },
+      { id: "c", label: "줄을 일정하게 유지하면서 안정적으로 걷는다", weights: { S: 1, J: 1 } }
     ]
   },
   {
