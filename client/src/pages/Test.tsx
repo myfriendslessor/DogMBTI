@@ -41,7 +41,36 @@ export default function Test() {
           ...answers,
           [currentQuestion.id]: choiceId
         };
+        
+        // 디버깅: 점수 계산 과정 로그
+        const scores = {
+          E: 0, I: 0,
+          S: 0, N: 0,
+          T: 0, F: 0,
+          J: 0, P: 0
+        };
+        
+        questions.forEach(question => {
+          const selectedChoiceId = updatedAnswers[question.id];
+          if (selectedChoiceId !== undefined) {
+            const selectedChoice = question.choices.find(c => c.id === selectedChoiceId);
+            if (selectedChoice) {
+              Object.entries(selectedChoice.weights).forEach(([dimension, weight]) => {
+                scores[dimension as keyof typeof scores] += weight;
+              });
+            }
+          }
+        });
+        
+        console.log('=== MBTI 계산 디버깅 ===');
+        console.log('총 질문 수:', questions.length);
+        console.log('답변 수:', Object.keys(updatedAnswers).length);
+        console.log('계산된 점수:', scores);
+        
         const mbtiType = calculateMBTI(updatedAnswers);
+        console.log('최종 MBTI 타입:', mbtiType);
+        console.log('=======================');
+        
         setLocation(`/result?type=${mbtiType}`);
       }
     }, 300);
