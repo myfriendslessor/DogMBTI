@@ -7,9 +7,9 @@ import { personalityTypes } from '@shared/personalityTypes';
 import { Home, RefreshCw } from 'lucide-react';
 
 export default function Result() {
-  const [location, setLocation] = useLocation();
+  const [, setLocation] = useLocation();
   
-  const params = new URLSearchParams(location.split('?')[1]);
+  const params = new URLSearchParams(window.location.search);
   const mbtiType = params.get('type') || 'ENFP';
   
   const personality = personalityTypes[mbtiType];
