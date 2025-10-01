@@ -13,7 +13,14 @@ export default function Test() {
   const [answers, setAnswers] = useState<Record<string, string>>({});
 
   const currentQuestion = questions[currentQuestionIndex];
-  const currentAnswer = answers[currentQuestion.id] || null;
+  const currentAnswer = currentQuestion ? (answers[currentQuestion.id] || null) : null;
+
+  // 안전장치: 질문이 없으면 홈으로 리다이렉트
+  useEffect(() => {
+    if (!currentQuestion) {
+      setLocation('/');
+    }
+  }, [currentQuestion, setLocation]);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -45,6 +52,10 @@ export default function Test() {
       setCurrentQuestionIndex(prev => prev - 1);
     }
   };
+
+  if (!currentQuestion) {
+    return null;
+  }
 
   return (
     <div className="min-h-screen bg-background py-8 px-4">

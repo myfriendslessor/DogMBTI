@@ -35,7 +35,7 @@ export const questions: Question[] = [
     id: "q3",
     text: "집에 손님이 오면 어떤가요?",
     choices: [
-      { id: "a", label: "활발하게 반가움을 표현한다", weights: { E: 2 } },
+      { id: "a", label: "흥분해서 활발히 반긴다", weights: { E: 2 } },
       { id: "b", label: "잠시 긴장하지만 곧 적응한다", weights: { N: 1, P: 1 } },
       { id: "c", label: "자기 자리로 돌아가 조용히 지낸다", weights: { I: 2, J: 1 } }
     ]
@@ -72,8 +72,8 @@ export const questions: Question[] = [
     text: "산책 루트가 바뀌면?",
     choices: [
       { id: "a", label: "흥미로워하며 즐긴다", weights: { N: 1, P: 1 } },
-      { id: "b", label: "천천히 적응한다", weights: { S: 1, J: 1 } },
-      { id: "c", label: "스트레스를 받는 편이다", weights: { S: 1, J: 1, F: 1 } }
+      { id: "b", label: "처음엔 낯설지만 곧 적응한다", weights: { S: 1, J: 1 } },
+      { id: "c", label: "스트레스를 받거나 걷기를 거부한다", weights: { S: 1, J: 1, F: 1 } }
     ]
   },
   {
@@ -287,48 +287,54 @@ export const questions: Question[] = [
     id: "q31",
     text: "산책할 때 익숙한 길과 새로운 길 중 어떤 걸 더 좋아하나요?",
     choices: [
-      { id: "a", label: "늘 다니던 익숙한 길을 편안해한다", weights: { S: 2 } },
-      { id: "b", label: "새로운 길을 가면 신나서 앞장선다", weights: { N: 2 } }
+      { id: "a", label: "늘 다니던 익숙한 길이 편안하다", weights: { S: 2 } },
+      { id: "b", label: "주로 익숙한 길이지만 가끔 새로운 길도 좋다", weights: { S: 1, N: 1 } },
+      { id: "c", label: "새로운 길을 보면 신나서 앞장선다", weights: { N: 2 } }
     ]
   },
   {
     id: "q32",
-    text: "새로운 장난감보다 어떤 장난감을 더 좋아하나요?",
+    text: "장난감 취향은 어떤가요?",
     choices: [
-      { id: "a", label: "매번 사용하던 익숙한 장난감을 더 좋아한다", weights: { S: 2 } },
-      { id: "b", label: "새로운 장난감을 줘야 흥미를 보인다", weights: { N: 2 } }
+      { id: "a", label: "늘 쓰던 익숙한 장난감을 가장 좋아한다", weights: { S: 2 } },
+      { id: "b", label: "익숙한 것과 새로운 것을 상황에 따라 고른다", weights: { S: 1, N: 1 } },
+      { id: "c", label: "새로운 장난감에 더 큰 흥미를 보인다", weights: { N: 2 } }
     ]
   },
   {
     id: "q33",
-    text: "간식이나 사료를 먹을 때 반응은?",
+    text: "간식/사료의 새로운 맛에 대한 반응은?",
     choices: [
       { id: "a", label: "늘 먹던 익숙한 맛을 가장 잘 먹는다", weights: { S: 2 } },
-      { id: "b", label: "새로운 간식이 나오면 더 흥미를 가진다", weights: { N: 2 } }
+      { id: "b", label: "새로운 맛도 시도하지만 익숙한 게 더 편하다", weights: { S: 1, N: 1 } },
+      { id: "c", label: "새로운 간식이 나오면 더 흥미를 보인다", weights: { N: 2 } }
     ]
   },
   {
     id: "q34",
-    text: "훈련을 할 때 어떤 방식을 더 선호하나요?",
+    text: "훈련 방식 선호는 어떤가요?",
     choices: [
       { id: "a", label: "같은 동작을 반복하며 안정적으로 수행한다", weights: { S: 2 } },
-      { id: "b", label: "자주 새로운 동작을 배우며 변화를 즐긴다", weights: { N: 2 } }
+      { id: "b", label: "기본은 반복하되 가끔은 변화를 준다", weights: { S: 1, N: 1 } },
+      { id: "c", label: "새로운 동작을 자주 배우며 변화를 즐긴다", weights: { N: 2 } }
     ]
   },
   {
     id: "q35",
-    text: "낯선 장소(병원, 미용실)에 갔을 때 행동은?",
+    text: "낯선 장소(병원, 미용실 등)에 갔을 때 행동은?",
     choices: [
       { id: "a", label: "한곳에 앉아 세부적으로 냄새를 맡고 관찰한다", weights: { S: 2 } },
-      { id: "b", label: "전체 공간을 빠르게 둘러보며 분위기를 파악한다", weights: { N: 2 } }
+      { id: "b", label: "조금 돌아보다 금방 익숙해진다", weights: { S: 1, N: 1 } },
+      { id: "c", label: "전체 공간을 빠르게 돌아다니며 탐험한다", weights: { N: 2 } }
     ]
   },
   {
     id: "q36",
     text: "주인의 행동 변화를 감지할 때?",
     choices: [
-      { id: "a", label: "목소리 톤·걸음걸이 같은 작은 변화를 잘 알아차린다", weights: { S: 2 } },
-      { id: "b", label: "큰 분위기 변화가 있어야 반응한다", weights: { N: 2 } }
+      { id: "a", label: "목소리 톤·걸음걸이 같은 작은 변화도 잘 알아차린다", weights: { S: 2 } },
+      { id: "b", label: "상황에 따라 눈치채기도 하고 못 느끼기도 한다", weights: { S: 1, N: 1 } },
+      { id: "c", label: "큰 분위기 변화가 있어야 반응한다", weights: { N: 2 } }
     ]
   }
 ];
