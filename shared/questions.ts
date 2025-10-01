@@ -27,7 +27,7 @@ export const questions: Question[] = [
     text: "새로운 강아지나 낯선 사람을 처음 만났을 때 반응은?",
     choices: [
       { id: "a", label: "꼬리를 흔들며 바로 다가가 반갑게 인사한다.", weights: { E: 2, F: 1 } },
-      { id: "b", label: "잠시 거리를 두고 상대를 관찰한 뒤 천천히 다가간다.", weights: { I: 1, N: 1 } },
+      { id: "b", label: "잠시 거리를 두고 상대를 관찰한 뒤 천천히 다가간다.", weights: { I: 1, S: 1 } },
       { id: "c", label: "주인 뒤에 숨거나 자리를 피하며 낯가림을 한다.", weights: { I: 2, J: 1 } }
     ]
   },
@@ -36,7 +36,7 @@ export const questions: Question[] = [
     text: "집에 손님이 왔을 때 강아지는?",
     choices: [
       { id: "a", label: "흥분해서 짖거나 방 안을 뛰어다니며 적극적으로 반긴다.", weights: { E: 2 } },
-      { id: "b", label: "처음에는 긴장하지만 금방 적응해 곁에 다가간다.", weights: { N: 1, P: 1 } },
+      { id: "b", label: "처음에는 긴장하지만 금방 적응해 곁에 다가간다.", weights: { N: 1, F: 1 } },
       { id: "c", label: "자기 자리에 가서 눈치만 보거나 조용히 지낸다.", weights: { I: 2, J: 1 } }
     ]
   },
@@ -44,7 +44,7 @@ export const questions: Question[] = [
     id: "q4",
     text: "병원이나 카페 같은 낯선 공간에 들어갔을 때?",
     choices: [
-      { id: "a", label: "새로운 냄새를 맡으며 호기심 가득하게 이리저리 돌아다닌다.", weights: { E: 1, N: 1 } },
+      { id: "a", label: "새로운 냄새를 맡으며 호기심 가득하게 이리저리 돌아다닌다.", weights: { E: 1, S: 1 } },
       { id: "b", label: "조용히 주변을 살피며 신중하게 움직인다.", weights: { I: 1, T: 1 } },
       { id: "c", label: "긴장해서 주인 다리에 바짝 붙어 떨어지지 않는다.", weights: { S: 1, J: 1 } }
     ]
@@ -55,7 +55,7 @@ export const questions: Question[] = [
     choices: [
       { id: "a", label: "현관 앞으로 달려와 점프하고 꼬리를 크게 흔든다.", weights: { E: 1, F: 1 } },
       { id: "b", label: "차분하게 다가와 냄새를 맡으며 인사한다.", weights: { I: 1, T: 1 } },
-      { id: "c", label: "흥분해 주인 옆에 꼭 붙어 떨어지지 않으려 한다.", weights: { F: 1, P: 1 } }
+      { id: "c", label: "흥분해 주인 옆에 꼭 붙어 떨어지지 않으려 한다.", weights: { F: 1, N: 1 } }
     ]
   },
   {
@@ -73,7 +73,7 @@ export const questions: Question[] = [
     choices: [
       { id: "a", label: "새로운 길에 흥분해 신나게 탐험한다.", weights: { N: 1, P: 1 } },
       { id: "b", label: "낯설어 하지만 몇 분 안에 적응한다.", weights: { S: 1, J: 1 } },
-      { id: "c", label: "당황하거나 멈춰 서서 가기를 거부한다.", weights: { S: 1, J: 1, F: 1 } }
+      { id: "c", label: "당황하거나 멈춰 서서 가기를 거부한다.", weights: { N: 1, F: 1, J: 1 } }
     ]
   },
   {
@@ -81,7 +81,7 @@ export const questions: Question[] = [
     text: "공이나 장난감을 줬을 때?",
     choices: [
       { id: "a", label: "바로 물어오거나 뛰어다니며 논다.", weights: { E: 1, P: 1 } },
-      { id: "b", label: "한참 냄새를 맡고 살펴본 뒤에 논다.", weights: { N: 1, T: 1 } },
+      { id: "b", label: "한참 냄새를 맡고 살펴본 뒤에 논다.", weights: { S: 1, T: 1 } },
       { id: "c", label: "흥미가 없다는 듯 무심히 지나간다.", weights: { I: 1, T: 1 } }
     ]
   },
@@ -90,7 +90,7 @@ export const questions: Question[] = [
     text: "새 장난감을 줬을 때 반응은?",
     choices: [
       { id: "a", label: "즉시 물어뜯거나 신나게 가지고 논다.", weights: { E: 1, P: 2 } },
-      { id: "b", label: "조심스럽게 다가가며 천천히 탐색한다.", weights: { N: 1, P: 1 } },
+      { id: "b", label: "조심스럽게 다가가며 천천히 탐색한다.", weights: { S: 1, P: 1 } },
       { id: "c", label: "별다른 반응 없이 무시한다.", weights: { I: 1, J: 1 } }
     ]
   },
@@ -108,7 +108,7 @@ export const questions: Question[] = [
     text: "초인종이나 폭죽 같은 큰 소리에?",
     choices: [
       { id: "a", label: "소리가 나는 쪽으로 달려가 확인하려 한다.", weights: { E: 1, N: 1 } },
-      { id: "b", label: "순간 멈추고 상황을 살핀다.", weights: { I: 1, T: 1 } },
+      { id: "b", label: "순간 멈추고 상황을 살핀다.", weights: { I: 1, S: 1 } },
       { id: "c", label: "놀라서 짖거나 숨어버린다.", weights: { F: 1, J: 1 } }
     ]
   },
@@ -117,7 +117,7 @@ export const questions: Question[] = [
     text: "낯선 강아지가 크게 짖으면?",
     choices: [
       { id: "a", label: "같이 짖거나 다가가며 반응한다.", weights: { E: 1, T: 1 } },
-      { id: "b", label: "주인의 눈치를 보며 행동을 결정한다.", weights: { J: 1, T: 1 } },
+      { id: "b", label: "주인의 눈치를 보며 행동을 결정한다.", weights: { S: 1, J: 1 } },
       { id: "c", label: "뒤로 물러서거나 피한다.", weights: { I: 1, F: 1 } }
     ]
   },
@@ -134,7 +134,7 @@ export const questions: Question[] = [
     id: "q14",
     text: "혼자 있는 시간이 길어지면?",
     choices: [
-      { id: "a", label: "장난감이나 간식 찾기로 시간을 보낸다.", weights: { N: 1, P: 1 } },
+      { id: "a", label: "장난감이나 간식 찾기로 시간을 보낸다.", weights: { S: 1, P: 1 } },
       { id: "b", label: "주로 자거나 정해진 자리에서 쉰다.", weights: { S: 1, J: 1 } },
       { id: "c", label: "스트레스로 물건을 파괴하거나 낑낑거린다.", weights: { E: 1, F: 1 } }
     ]
@@ -143,7 +143,7 @@ export const questions: Question[] = [
     id: "q15",
     text: "낯선 장소에서 휴식을 취할 때?",
     choices: [
-      { id: "a", label: "편하게 엎드려 주변을 구경한다.", weights: { N: 1, P: 1 } },
+      { id: "a", label: "편하게 엎드려 주변을 구경한다.", weights: { S: 1, P: 1 } },
       { id: "b", label: "매트나 케이지에서 조용히 쉰다.", weights: { S: 1, J: 1 } },
       { id: "c", label: "주인 옆에 꼭 붙어 쉰다.", weights: { F: 1, J: 1 } }
     ]
@@ -162,7 +162,7 @@ export const questions: Question[] = [
     text: "주인이 기분이 좋지 않을 때 강아지는?",
     choices: [
       { id: "a", label: "다가와 기대며 위로한다.", weights: { I: 1, F: 1 } },
-      { id: "b", label: "산책이나 놀이로 분위기를 바꾸려 한다.", weights: { E: 1, N: 1 } },
+      { id: "b", label: "산책이나 놀이로 분위기를 바꾸려 한다.", weights: { E: 1, S: 1 } },
       { id: "c", label: "눈치를 보며 조용히 거리를 둔다.", weights: { T: 1, J: 1 } }
     ]
   },
@@ -189,7 +189,7 @@ export const questions: Question[] = [
     text: "스킨십을 얼마나 좋아하나요?",
     choices: [
       { id: "a", label: "안기고 쓰다듬기를 적극적으로 원한다.", weights: { F: 2 } },
-      { id: "b", label: "기분 좋을 때만 원한다.", weights: { N: 1, P: 1 } },
+      { id: "b", label: "기분 좋을 때만 원한다.", weights: { S: 1, P: 1 } },
       { id: "c", label: "짧은 터치 정도만 허용한다.", weights: { T: 1, I: 1 } }
     ]
   },
@@ -242,7 +242,7 @@ export const questions: Question[] = [
     id: "q26",
     text: "집에서 가장 좋아하는 자리는?",
     choices: [
-      { id: "a", label: "주인 곁, 소파 옆이나 발치", weights: { F: 1, I: 1 } },
+      { id: "a", label: "주인 곁, 소파 옆이나 발치", weights: { F: 1, N: 1, J: 1 } },
       { id: "b", label: "창가나 베란다 같은 바깥을 볼 수 있는 곳", weights: { N: 1, T: 1 } },
       { id: "c", label: "자기 하우스나 매트", weights: { S: 1, J: 1 } }
     ]
@@ -280,7 +280,7 @@ export const questions: Question[] = [
     choices: [
       { id: "a", label: "아침이나 저녁, 산책 시간대", weights: { J: 1, S: 1 } },
       { id: "b", label: "하루 종일 틈틈이 활발하다", weights: { P: 1, N: 1 } },
-      { id: "c", label: "주인의 활동 시간에 맞춘다", weights: { F: 1, I: 1 } }
+      { id: "c", label: "주인의 활동 시간에 맞춘다", weights: { F: 1, N: 1, J: 1 } }
     ]
   }
 ];
