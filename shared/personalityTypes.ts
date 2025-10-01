@@ -400,30 +400,84 @@ export const personalityTypes: Record<string, PersonalityType> = {
 };
 
 export function calculateMBTI(answers: Record<string, string>): string {
-  const scores = {
+  // 축별 독립 점수 계산 (교차 축 누수 방지)
+  const axisScores = {
     E: 0, I: 0,
     S: 0, N: 0,
     T: 0, F: 0,
     J: 0, P: 0
   };
 
+  // 각 축의 최대 가능 점수 계산 (정규화용)
+  const maxScores = {
+    E: 0, I: 0,
+    S: 0, N: 0,
+    T: 0, F: 0,
+    J: 0, P: 0
+  };
+
+  // 각 질문에서 선택 가능한 최대 가중치 누적
+  questions.forEach(question => {
+    let maxE = 0, maxI = 0, maxS = 0, maxN = 0;
+    let maxT = 0, maxF = 0, maxJ = 0, maxP = 0;
+
+    question.choices.forEach(choice => {
+      maxE = Math.max(maxE, choice.weights.E || 0);
+      maxI = Math.max(maxI, choice.weights.I || 0);
+      maxS = Math.max(maxS, choice.weights.S || 0);
+      maxN = Math.max(maxN, choice.weights.N || 0);
+      maxT = Math.max(maxT, choice.weights.T || 0);
+      maxF = Math.max(maxF, choice.weights.F || 0);
+      maxJ = Math.max(maxJ, choice.weights.J || 0);
+      maxP = Math.max(maxP, choice.weights.P || 0);
+    });
+
+    // 각 질문의 최댓값을 누적
+    maxScores.E += maxE;
+    maxScores.I += maxI;
+    maxScores.S += maxS;
+    maxScores.N += maxN;
+    maxScores.T += maxT;
+    maxScores.F += maxF;
+    maxScores.J += maxJ;
+    maxScores.P += maxP;
+  });
+
+  // 사용자 답변에 따른 점수 계산 (축별 독립)
   questions.forEach(question => {
     const selectedChoiceId = answers[question.id];
     if (selectedChoiceId !== undefined) {
       const selectedChoice = question.choices.find(c => c.id === selectedChoiceId);
       if (selectedChoice) {
-        Object.entries(selectedChoice.weights).forEach(([dimension, weight]) => {
-          scores[dimension as keyof typeof scores] += weight;
-        });
+        // 각 축별로 해당 차원의 가중치만 사용
+        axisScores.E += selectedChoice.weights.E || 0;
+        axisScores.I += selectedChoice.weights.I || 0;
+        axisScores.S += selectedChoice.weights.S || 0;
+        axisScores.N += selectedChoice.weights.N || 0;
+        axisScores.T += selectedChoice.weights.T || 0;
+        axisScores.F += selectedChoice.weights.F || 0;
+        axisScores.J += selectedChoice.weights.J || 0;
+        axisScores.P += selectedChoice.weights.P || 0;
       }
     }
   });
 
+  // 축별 정규화된 점수 계산 (0-1 범위)
+  const normalizedE = maxScores.E > 0 ? axisScores.E / maxScores.E : 0;
+  const normalizedI = maxScores.I > 0 ? axisScores.I / maxScores.I : 0;
+  const normalizedS = maxScores.S > 0 ? axisScores.S / maxScores.S : 0;
+  const normalizedN = maxScores.N > 0 ? axisScores.N / maxScores.N : 0;
+  const normalizedT = maxScores.T > 0 ? axisScores.T / maxScores.T : 0;
+  const normalizedF = maxScores.F > 0 ? axisScores.F / maxScores.F : 0;
+  const normalizedJ = maxScores.J > 0 ? axisScores.J / maxScores.J : 0;
+  const normalizedP = maxScores.P > 0 ? axisScores.P / maxScores.P : 0;
+
+  // 각 축에서 높은 쪽 선택
   const mbti = 
-    (scores.E >= scores.I ? 'E' : 'I') +
-    (scores.S >= scores.N ? 'S' : 'N') +
-    (scores.T >= scores.F ? 'T' : 'F') +
-    (scores.J >= scores.P ? 'J' : 'P');
+    (normalizedE >= normalizedI ? 'E' : 'I') +
+    (normalizedS >= normalizedN ? 'S' : 'N') +
+    (normalizedT >= normalizedF ? 'T' : 'F') +
+    (normalizedJ >= normalizedP ? 'J' : 'P');
 
   return mbti;
 }
