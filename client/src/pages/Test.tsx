@@ -5,7 +5,7 @@ import QuestionCard from '@/components/QuestionCard';
 import ProgressBar from '@/components/ProgressBar';
 import { questions } from '@shared/questions';
 import { calculateMBTI } from '@shared/personalityTypes';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft } from 'lucide-react';
 
 export default function Test() {
   const [, setLocation] = useLocation();
@@ -24,15 +24,20 @@ export default function Test() {
       ...prev,
       [currentQuestion.id]: choiceId
     }));
-  };
-
-  const handleNext = () => {
-    if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(prev => prev + 1);
-    } else {
-      const mbtiType = calculateMBTI(answers);
-      setLocation(`/result?type=${mbtiType}`);
-    }
+    
+    // 답변 선택 후 자동으로 다음 질문으로 이동
+    setTimeout(() => {
+      if (currentQuestionIndex < questions.length - 1) {
+        setCurrentQuestionIndex(prev => prev + 1);
+      } else {
+        const updatedAnswers = {
+          ...answers,
+          [currentQuestion.id]: choiceId
+        };
+        const mbtiType = calculateMBTI(updatedAnswers);
+        setLocation(`/result?type=${mbtiType}`);
+      }
+    }, 300);
   };
 
   const handlePrevious = () => {
@@ -40,8 +45,6 @@ export default function Test() {
       setCurrentQuestionIndex(prev => prev - 1);
     }
   };
-
-  const canGoNext = currentAnswer !== null;
 
   return (
     <div className="min-h-screen bg-background py-8 px-4">
@@ -67,7 +70,7 @@ export default function Test() {
           />
         </div>
 
-        <div className="flex gap-4 justify-between max-w-2xl mx-auto">
+        <div className="flex justify-start max-w-2xl mx-auto">
           <Button
             variant="outline"
             size="lg"
@@ -77,18 +80,6 @@ export default function Test() {
           >
             <ChevronLeft className="w-4 h-4 mr-2" />
             이전
-          </Button>
-
-          <Button
-            size="lg"
-            onClick={handleNext}
-            disabled={!canGoNext}
-            data-testid="button-next"
-          >
-            {currentQuestionIndex === questions.length - 1 ? '결과 보기' : '다음'}
-            {currentQuestionIndex < questions.length - 1 && (
-              <ChevronRight className="w-4 h-4 ml-2" />
-            )}
           </Button>
         </div>
       </div>
