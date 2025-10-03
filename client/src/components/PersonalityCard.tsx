@@ -27,7 +27,7 @@ export default function PersonalityCard({ personality }: PersonalityCardProps) {
       <CardContent className="space-y-8 pb-8">
         <div>
           <p className="text-base leading-relaxed text-foreground">
-            {personality.description}
+            {personality.summary || personality.description}
           </p>
         </div>
 
@@ -45,6 +45,51 @@ export default function PersonalityCard({ personality }: PersonalityCardProps) {
             ))}
           </ul>
         </div>
+
+        {personality.detailedTraits && (
+          <div className="border-t pt-8">
+            <h3 className="text-xl font-bold mb-2 flex items-center gap-2">
+              <span>✨</span>
+              {personality.detailedTraits.title}
+            </h3>
+            <p className="text-muted-foreground mb-6 leading-relaxed">
+              {personality.detailedTraits.description}
+            </p>
+            <div className="space-y-6">
+              {personality.detailedTraits.points.map((point, index) => (
+                <div key={index} className="space-y-2">
+                  <h4 className="font-semibold text-lg text-foreground">
+                    {point.heading}
+                  </h4>
+                  <p className="text-muted-foreground leading-relaxed">
+                    {point.text}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {personality.guide && (
+          <div className="border-t pt-8">
+            <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
+              <span>📚</span>
+              {personality.guide.title}
+            </h3>
+            <div className="space-y-6">
+              {personality.guide.points.map((point, index) => (
+                <div key={index} className="space-y-2">
+                  <h4 className="font-semibold text-lg text-foreground">
+                    {point.heading}
+                  </h4>
+                  <p className="text-muted-foreground leading-relaxed">
+                    {point.text}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div>
           <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
@@ -77,6 +122,20 @@ export default function PersonalityCard({ personality }: PersonalityCardProps) {
             ))}
           </div>
         </div>
+
+        {personality.message && (
+          <div className="border-t pt-8">
+            <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+              <span>💌</span>
+              가족에게 보내는 메시지
+            </h3>
+            <div className="bg-muted/50 rounded-lg p-6">
+              <p className="text-foreground leading-relaxed italic">
+                {personality.message}
+              </p>
+            </div>
+          </div>
+        )}
       </CardContent>
     </Card>
   );
