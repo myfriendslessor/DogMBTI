@@ -15,7 +15,7 @@ export function LanguageToggle() {
       size="icon"
       onClick={toggleLanguage}
       data-testid="button-language-toggle"
-      className="relative"
+      className="relative scale-[2] origin-top-right"
     >
       <Languages className="h-4 w-4" />
       <span className="sr-only">Toggle language</span>

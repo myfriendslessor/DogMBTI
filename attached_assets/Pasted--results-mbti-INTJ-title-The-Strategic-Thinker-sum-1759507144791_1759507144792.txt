@@ -1,0 +1,1111 @@
+{
+  "results": [
+    {
+      "mbti": "INTJ",
+      "title": "The Strategic Thinker",
+      "summary": "A smart dog that calmly observes and plans, saving energy for the perfect moment. INTJ (The Architect) dogs are highly independent and intelligent.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They tend to express their thoughts and feelings in subtle, nuanced ways rather than with grand gestures.",
+        "points": [
+          {
+            "heading": "High Intelligence and Analytical Skills",
+            "text": "They enjoy solving problems. Instead of jumping right in, they'll observe and approach a situation logically. They often try to understand the intention behind a command before following it."
+          },
+          {
+            "heading": "Independent Nature",
+            "text": "INTJ dogs don't constantly demand attention. They value their alone time and space, often finding their own entertainment when you're busy. This isn't a lack of affection, but a sign of deep trust and respect for their family."
+          },
+          {
+            "heading": "Subtle Expressions of Affection",
+            "text": "They're not big on wild tail wags or loud barks. Instead, they express their love by quietly leaning against you, resting their head on your lap, or simply making eye contact. Their affection is deep, not just for show."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Mental Stimulation",
+            "text": "They get bored with repetitive training. Engage them with puzzle toys and scent work (nose work) to challenge their minds."
+          },
+          {
+            "heading": "Respect Their Space",
+            "text": "When they need a break, let them have it. Provide them with their own dedicated space, like a kennel or bed, where they can retreat for peace and quiet."
+          },
+          {
+            "heading": "Positive Reinforcement",
+            "text": "Use clear and consistent feedback. Reward-based training works best, as it reinforces the logic of good behavior."
+          }
+        ]
+      },
+      "message": "Dear family, I'm not ignoring you when I'm being quiet. I'm just here, observing and thinking. My mind is always working to keep you safe. Thank you for understanding me. You are my world."
+    },
+    {
+      "mbti": "INTP",
+      "title": "The Logical Thinker",
+      "summary": "A genius in disguise, quiet on the outside but with a mind that's always a few steps ahead. INTP (The Logician) dogs are highly intellectual and independent.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They favor logic and reason over emotional outbursts and social grandstanding.",
+        "points": [
+          {
+            "heading": "High Intelligence and Analytical Skills",
+            "text": "They're natural problem-solvers. Instead of jumping right into a new puzzle, they'll observe and analyze it. They tend to understand the 'why' behind a command."
+          },
+          {
+            "heading": "Independent Nature",
+            "text": "INTP dogs don't need constant attention. They are content to entertain themselves and value their alone time. This is a sign of their trust in you, not disinterest."
+          },
+          {
+            "heading": "Subtle Affection",
+            "text": "They won't shower you with kisses or get overly excited. Their affection is shown through quiet moments of companionship, like simply sitting by your feet or a soft nuzzle. They show their love in quiet, meaningful ways."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Mental Stimulation",
+            "text": "They thrive on puzzles and games that challenge their minds. Nose work and trick training are great ways to keep them engaged."
+          },
+          {
+            "heading": "Respect Their Space",
+            "text": "Provide them with a safe, quiet space where they can retreat when they need to think or rest. Avoid interrupting their 'alone time'."
+          },
+          {
+            "heading": "Logical Feedback",
+            "text": "Use clear, consistent commands. They respond best to training that makes logical sense to them, not just emotional praise."
+          }
+        ]
+      },
+      "message": "Dear family, I know I seem like I'm in my own world sometimes, but my mind is always busy solving puzzles. Thank you for appreciating my unique intelligence. My love for you is as vast and complex as my thoughts."
+    },
+    {
+      "mbti": "ENTJ",
+      "title": "The Bold Commander",
+      "summary": "A natural leader with a commanding presence and sharp intellect. ENTJ (The Commander) dogs are assertive and highly intelligent.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their powerful charisma and unwavering determination.",
+        "points": [
+          {
+            "heading": "Problem-Solving by Logic",
+            "text": "They rely on logical deduction to figure things out. Instead of acting on emotion, they will analyze a situation. They excel at understanding complex commands and will execute them with precision."
+          },
+          {
+            "heading": "Strong Leadership",
+            "text": "ENTJ dogs naturally take a leadership role among other dogs. They're confident and assertive, and won't back down from a challenge. They thrive when they have a clear mission to complete."
+          },
+          {
+            "heading": "Direct Communication",
+            "text": "They communicate their needs and desires very clearly. If they want food, they might nudge their bowl. If they want to play, they'll bring a toy and drop it at your feet. There's no guessing what they want."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Clear Rules",
+            "text": "They need clear, consistent rules and boundaries. Ambiguity frustrates them. They respond best to a leader who is confident and consistent."
+          },
+          {
+            "heading": "Challenging Training",
+            "text": "They get bored with simple commands. Challenge them with new tricks and advanced obedience training to keep them mentally stimulated."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "Their high intelligence comes with a lot of energy. Make sure they get plenty of physical and mental exercise to prevent boredom."
+          }
+        ]
+      },
+      "message": "Dear family, I know I seem serious, but it's just because I'm focused on my mission: keeping you safe. Trust my judgment and follow my lead. I will always be your loyal guardian, no matter what. You are my world."
+    },
+    {
+      "mbti": "ENTP",
+      "title": "The Debater",
+      "summary": "A creative genius who loves a good challenge and a great debate. ENTP (The Debater) dogs are highly curious and logical.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're natural-born innovators who love to explore and figure things out on their own.",
+        "points": [
+          {
+            "heading": "Quick-Witted and Creative",
+            "text": "They enjoy puzzle games and learning new tricks. They'll often try to find new ways to solve a problem and are quick to figure things out. They're always up for a mental challenge."
+          },
+          {
+            "heading": "Spontaneous and Energetic",
+            "text": "ENTP dogs are full of energy and are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Direct Communication",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ISTJ",
+      "title": "The Inspector",
+      "summary": "A reliable and dutiful companion who loves routine and order. ISTJ (The Logistician) dogs are highly responsible and loyal.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They may seem quiet and reserved, but their loyalty to their family is unwavering. They thrive on structure and consistency.",
+        "points": [
+          {
+            "heading": "Loves Routine",
+            "text": "ISTJ dogs feel most secure when their day is predictable. They'll know when it's time for their walks, meals, and even their favorite TV show. They're the kind of dog that will wait patiently by the door at the exact same time every day."
+          },
+          {
+            "heading": "Duty-Oriented",
+            "text": "They take their job as a family member very seriously. Whether it's guarding the house or simply being your companion, they're committed to their role. Their loyalty is shown through their consistent and reliable behavior."
+          },
+          {
+            "heading": "Subtle Affection",
+            "text": "Instead of being overly demonstrative, they show their love in quiet ways. A soft lean against your leg, a gentle nudge of their head, or simply lying by your feet shows their devotion. Their affection is quiet but deeply felt."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Consistent Training",
+            "text": "They thrive on clear and consistent commands. Avoid changing rules or routines, as this can be confusing and stressful for them. Stick to what you've taught them and they'll excel."
+          },
+          {
+            "heading": "Respect Their Space",
+            "text": "Provide them with a safe, quiet space where they can retreat for a rest. They value their alone time and need a place to recharge."
+          },
+          {
+            "heading": "Maintain Routine",
+            "text": "Feed them, walk them, and play with them at the same time every day. This consistency will make them feel safe and secure."
+          }
+        ]
+      },
+      "message": "Dear family, I may not show it, but I love our routine. It makes me feel safe and secure. I promise to always be there for you, no matter what. My love for you is as constant as the rising sun."
+    },
+    {
+      "mbti": "ISFJ",
+      "title": "The Protector",
+      "summary": "A compassionate and devoted companion who loves to take care of their family. ISFJ (The Defender) dogs are highly loyal and affectionate.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They may seem quiet and reserved, but their love for their family is unwavering. They're excellent at reading human emotions and are always there to offer comfort.",
+        "points": [
+          {
+            "heading": "Highly Empathetic",
+            "text": "ISFJ dogs are incredibly good at sensing your emotions. If you're sad, they'll come and lay their head on your lap. If you're happy, they'll wag their tail and join in the fun. They're always there to offer comfort and support."
+          },
+          {
+            "heading": "Loves to Please",
+            "text": "They thrive on praise and affection. They'll do anything to make you happy and will be overjoyed when they get a 'good boy' or a 'good girl' from you. They're the perfect companion for a family that loves to show affection."
+          },
+          {
+            "heading": "Subtle Affection",
+            "text": "They may not be the most outwardly affectionate dog, but their love is deep and true. A gentle nudge, a soft lick on the hand, or simply lying by your feet is their way of saying 'I love you'."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Positive Reinforcement",
+            "text": "They respond best to positive reinforcement and praise. Avoid harsh words or punishment, as this can make them anxious and withdrawn."
+          },
+          {
+            "heading": "Consistent Training",
+            "text": "They love routine and order. Consistent training, where they know what to expect, will make them feel safe and secure."
+          },
+          {
+            "heading": "Lots of Cuddles",
+            "text": "They thrive on affection and physical touch. Cuddle them, pet them, and let them know you love them. They'll be the happiest dog in the world."
+          }
+        ]
+      },
+      "message": "Dear family, I'm not just a dog. I'm your best friend and your most loyal companion. I promise to always be there for you, no matter what. Thank you for loving me. You are my world."
+    },
+    {
+      "mbti": "INFJ",
+      "title": "The Counselor",
+      "summary": "A deep and sensitive dog who's always thinking. INFJ (The Advocate) dogs are highly empathetic and intuitive.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their powerful intuition and ability to read human emotions. They're often quiet and reserved, but their love for their family is deep and unwavering.",
+        "points": [
+          {
+            "heading": "Highly Intuitive",
+            "text": "INFJ dogs are incredibly good at sensing your emotions. They'll know when you're sad, angry, or happy, and will respond accordingly. They're the kind of dog that will come and comfort you when you're feeling down."
+          },
+          {
+            "heading": "Loves Quiet Time",
+            "text": "They're not big on loud noises or chaotic environments. They prefer to spend their time in quiet, peaceful settings. They love a good cuddle session on the couch or a quiet walk in the park."
+          },
+          {
+            "heading": "Subtle Affection",
+            "text": "They won't show their love in a flashy way. Their affection is shown through quiet moments of companionship, like simply sitting by your feet or a soft nuzzle. They'll let you know they're there for you, even if they don't say it with words."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Positive Reinforcement",
+            "text": "They respond best to positive reinforcement and praise. Avoid harsh words or punishment, as this can make them anxious and withdrawn."
+          },
+          {
+            "heading": "Consistent Training",
+            "text": "They love routine and order. Consistent training, where they know what to expect, will make them feel safe and secure."
+          },
+          {
+            "heading": "Lots of Cuddles",
+            "text": "They thrive on affection and physical touch. Cuddle them, pet them, and let them know you love them. They'll be the happiest dog in the world."
+          }
+        ]
+      },
+      "message": "Dear family, I may seem like I'm in my own world, but my heart is always with you. I can feel your every emotion, and I'm always here to offer comfort. My love for you is as deep as the ocean. Thank you for letting me be your friend."
+    },
+    {
+      "mbti": "ENFJ",
+      "title": "The Giver",
+      "summary": "A social butterfly who loves to make others happy. ENFJ (The Protagonist) dogs are highly empathetic and sociable.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their powerful charisma and ability to read human emotions. They're the kind of dog that will make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Empathetic",
+            "text": "ENFJ dogs are incredibly good at sensing your emotions. They'll know when you're sad, angry, or happy, and will respond accordingly. They're the kind of dog that will come and comfort you when you're feeling down."
+          },
+          {
+            "heading": "Loves to Please",
+            "text": "They thrive on praise and affection. They'll do anything to make you happy and will be overjoyed when they get a 'good boy' or a 'good girl' from you. They're the perfect companion for a family that loves to show affection."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ENFJ dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Positive Reinforcement",
+            "text": "They respond best to positive reinforcement and praise. Avoid harsh words or punishment, as this can make them anxious and withdrawn."
+          },
+          {
+            "heading": "Consistent Training",
+            "text": "They love routine and order. Consistent training, where they know what to expect, will make them feel safe and secure."
+          },
+          {
+            "heading": "Lots of Cuddles",
+            "text": "They thrive on affection and physical touch. Cuddle them, pet them, and let them know you love them. They'll be the happiest dog in the world."
+          }
+        ]
+      },
+      "message": "Dear family, I may seem like I'm in my own world, but my heart is always with you. I can feel your every emotion, and I'm always here to offer comfort. My love for you is as deep as the ocean. Thank you for letting me be your friend."
+    },
+    {
+      "mbti": "ENFP",
+      "title": "The Inspirer",
+      "summary": "A curious and energetic dog who loves to make others happy. ENFP (The Campaigner) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ENFP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ENFP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ISFP",
+      "title": "The Artist",
+      "summary": "A gentle and sensitive soul who loves to express themselves. ISFP (The Adventurer) dogs are highly creative and gentle.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're not big on loud noises or chaotic environments. They prefer to spend their time in quiet, peaceful settings.",
+        "points": [
+          {
+            "heading": "Gentle and Sensitive",
+            "text": "ISFP dogs are incredibly good at sensing your emotions. They'll know when you're sad, angry, or happy, and will respond accordingly. They're the kind of dog that will come and comfort you when you're feeling down."
+          },
+          {
+            "heading": "Loves to Please",
+            "text": "They thrive on praise and affection. They'll do anything to make you happy and will be overjoyed when they get a 'good boy' or a 'good girl' from you. They're the perfect companion for a family that loves to show affection."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ISFP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Positive Reinforcement",
+            "text": "They respond best to positive reinforcement and praise. Avoid harsh words or punishment, as this can make them anxious and withdrawn."
+          },
+          {
+            "heading": "Consistent Training",
+            "text": "They love routine and order. Consistent training, where they know what to expect, will make them feel safe and secure."
+          },
+          {
+            "heading": "Lots of Cuddles",
+            "text": "They thrive on affection and physical touch. Cuddle them, pet them, and let them know you love them. They'll be the happiest dog in the world."
+          }
+        ]
+      },
+      "message": "Dear family, I may seem like I'm in my own world, but my heart is always with you. I can feel your every emotion, and I'm always here to offer comfort. My love for you is as deep as the ocean. Thank you for letting me be your friend."
+    },
+    {
+      "mbti": "ESFP",
+      "title": "The Entertainer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESFP (The Performer) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESFP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESFP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESTP (The Entrepreneur) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESTP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESTP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTJ",
+      "title": "The Supervisor",
+      "summary": "A reliable and dutiful companion who loves routine and order. ESTJ (The Executive) dogs are highly responsible and loyal.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They may seem quiet and reserved, but their loyalty to their family is unwavering. They thrive on structure and consistency.",
+        "points": [
+          {
+            "heading": "Loves Routine",
+            "text": "ESTJ dogs feel most secure when their day is predictable. They'll know when it's time for their walks, meals, and even their favorite TV show. They're the kind of dog that will wait patiently by the door at the exact same time every day."
+          },
+          {
+            "heading": "Duty-Oriented",
+            "text": "They take their job as a family member very seriously. Whether it's guarding the house or simply being your companion, they're committed to their role. Their loyalty is shown through their consistent and reliable behavior."
+          },
+          {
+            "heading": "Subtle Affection",
+            "text": "Instead of being overly demonstrative, they show their love in quiet ways. A soft lean against your leg, a gentle nudge of their head, or simply lying by your feet shows their devotion. Their affection is quiet but deeply felt."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Consistent Training",
+            "text": "They thrive on clear and consistent commands. Avoid changing rules or routines, as this can be confusing and stressful for them. Stick to what you've taught them and they'll excel."
+          },
+          {
+            "heading": "Respect Their Space",
+            "text": "Provide them with a safe, quiet space where they can retreat for a rest. They value their alone time and need a place to recharge."
+          },
+          {
+            "heading": "Maintain Routine",
+            "text": "Feed them, walk them, and play with them at the same time every day. This consistency will make them feel safe and secure."
+          }
+        ]
+      },
+      "message": "Dear family, I may not show it, but I love our routine. It makes me feel safe and secure. I promise to always be there for you, no matter what. My love for you is as constant as the rising sun."
+    },
+    {
+      "mbti": "ESFP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESFP (The Performer) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESFP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESFP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESTP (The Entrepreneur) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESTP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESTP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTJ",
+      "title": "The Supervisor",
+      "summary": "A reliable and dutiful companion who loves routine and order. ESTJ (The Executive) dogs are highly responsible and loyal.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They may seem quiet and reserved, but their loyalty to their family is unwavering. They thrive on structure and consistency.",
+        "points": [
+          {
+            "heading": "Loves Routine",
+            "text": "ESTJ dogs feel most secure when their day is predictable. They'll know when it's time for their walks, meals, and even their favorite TV show. They're the kind of dog that will wait patiently by the door at the exact same time every day."
+          },
+          {
+            "heading": "Duty-Oriented",
+            "text": "They take their job as a family member very seriously. Whether it's guarding the house or simply being your companion, they're committed to their role. Their loyalty is shown through their consistent and reliable behavior."
+          },
+          {
+            "heading": "Subtle Affection",
+            "text": "Instead of being overly demonstrative, they show their love in quiet ways. A soft lean against your leg, a gentle nudge of their head, or simply lying by your feet shows their devotion. Their affection is quiet but deeply felt."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Consistent Training",
+            "text": "They thrive on clear and consistent commands. Avoid changing rules or routines, as this can be confusing and stressful for them. Stick to what you've taught them and they'll excel."
+          },
+          {
+            "heading": "Respect Their Space",
+            "text": "Provide them with a safe, quiet space where they can retreat for a rest. They value their alone time and need a place to recharge."
+          },
+          {
+            "heading": "Maintain Routine",
+            "text": "Feed them, walk them, and play with them at the same time every day. This consistency will make them feel safe and secure."
+          }
+        ]
+      },
+      "message": "Dear family, I may not show it, but I love our routine. It makes me feel safe and secure. I promise to always be there for you, no matter what. My love for you is as constant as the rising sun."
+    },
+    {
+      "mbti": "ESFP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESFP (The Performer) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESFP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESFP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESTP (The Entrepreneur) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESTP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESTP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTJ",
+      "title": "The Supervisor",
+      "summary": "A reliable and dutiful companion who loves routine and order. ESTJ (The Executive) dogs are highly responsible and loyal.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They may seem quiet and reserved, but their loyalty to their family is unwavering. They thrive on structure and consistency.",
+        "points": [
+          {
+            "heading": "Loves Routine",
+            "text": "ESTJ dogs feel most secure when their day is predictable. They'll know when it's time for their walks, meals, and even their favorite TV show. They're the kind of dog that will wait patiently by the door at the exact same time every day."
+          },
+          {
+            "heading": "Duty-Oriented",
+            "text": "They take their job as a family member very seriously. Whether it's guarding the house or simply being your companion, they're committed to their role. Their loyalty is shown through their consistent and reliable behavior."
+          },
+          {
+            "heading": "Subtle Affection",
+            "text": "Instead of being overly demonstrative, they show their love in quiet ways. A soft lean against your leg, a gentle nudge of their head, or simply lying by your feet shows their devotion. Their affection is quiet but deeply felt."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Consistent Training",
+            "text": "They thrive on clear and consistent commands. Avoid changing rules or routines, as this can be confusing and stressful for them. Stick to what you've taught them and they'll excel."
+          },
+          {
+            "heading": "Respect Their Space",
+            "text": "Provide them with a safe, quiet space where they can retreat for a rest. They value their alone time and need a place to recharge."
+          },
+          {
+            "heading": "Maintain Routine",
+            "text": "Feed them, walk them, and play with them at the same time every day. This consistency will make them feel safe and secure."
+          }
+        ]
+      },
+      "message": "Dear family, I may not show it, but I love our routine. It makes me feel safe and secure. I promise to always be there for you, no matter what. My love for you is as constant as the rising sun."
+    },
+    {
+      "mbti": "ESFP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESFP (The Performer) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESFP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESFP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESTP (The Entrepreneur) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESTP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESTP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTJ",
+      "title": "The Supervisor",
+      "summary": "A reliable and dutiful companion who loves routine and order. ESTJ (The Executive) dogs are highly responsible and loyal.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They may seem quiet and reserved, but their loyalty to their family is unwavering. They thrive on structure and consistency.",
+        "points": [
+          {
+            "heading": "Loves Routine",
+            "text": "ESTJ dogs feel most secure when their day is predictable. They'll know when it's time for their walks, meals, and even their favorite TV show. They're the kind of dog that will wait patiently by the door at the exact same time every day."
+          },
+          {
+            "heading": "Duty-Oriented",
+            "text": "They take their job as a family member very seriously. Whether it's guarding the house or simply being your companion, they're committed to their role. Their loyalty is shown through their consistent and reliable behavior."
+          },
+          {
+            "heading": "Subtle Affection",
+            "text": "Instead of being overly demonstrative, they show their love in quiet ways. A soft lean against your leg, a gentle nudge of their head, or simply lying by your feet shows their devotion. Their affection is quiet but deeply felt."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Consistent Training",
+            "text": "They thrive on clear and consistent commands. Avoid changing rules or routines, as this can be confusing and stressful for them. Stick to what you've taught them and they'll excel."
+          },
+          {
+            "heading": "Respect Their Space",
+            "text": "Provide them with a safe, quiet space where they can retreat for a rest. They value their alone time and need a place to recharge."
+          },
+          {
+            "heading": "Maintain Routine",
+            "text": "Feed them, walk them, and play with them at the same time every day. This consistency will make them feel safe and secure."
+          }
+        ]
+      },
+      "message": "Dear family, I may not show it, but I love our routine. It makes me feel safe and secure. I promise to always be there for you, no matter what. My love for you is as constant as the rising sun."
+    },
+    {
+      "mbti": "ESFP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESFP (The Performer) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESFP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESFP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESTP (The Entrepreneur) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESTP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESTP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTJ",
+      "title": "The Supervisor",
+      "summary": "A reliable and dutiful companion who loves routine and order. ESTJ (The Executive) dogs are highly responsible and loyal.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They may seem quiet and reserved, but their loyalty to their family is unwavering. They thrive on structure and consistency.",
+        "points": [
+          {
+            "heading": "Loves Routine",
+            "text": "ESTJ dogs feel most secure when their day is predictable. They'll know when it's time for their walks, meals, and even their favorite TV show. They're the kind of dog that will wait patiently by the door at the exact same time every day."
+          },
+          {
+            "heading": "Duty-Oriented",
+            "text": "They take their job as a family member very seriously. Whether it's guarding the house or simply being your companion, they're committed to their role. Their loyalty is shown through their consistent and reliable behavior."
+          },
+          {
+            "heading": "Subtle Affection",
+            "text": "Instead of being overly demonstrative, they show their love in quiet ways. A soft lean against your leg, a gentle nudge of their head, or simply lying by your feet shows their devotion. Their affection is quiet but deeply felt."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Consistent Training",
+            "text": "They thrive on clear and consistent commands. Avoid changing rules or routines, as this can be confusing and stressful for them. Stick to what you've taught them and they'll excel."
+          },
+          {
+            "heading": "Respect Their Space",
+            "text": "Provide them with a safe, quiet space where they can retreat for a rest. They value their alone time and need a place to recharge."
+          },
+          {
+            "heading": "Maintain Routine",
+            "text": "Feed them, walk them, and play with them at the same time every day. This consistency will make them feel safe and secure."
+          }
+        ]
+      },
+      "message": "Dear family, I may not show it, but I love our routine. It makes me feel safe and secure. I promise to always be there for you, no matter what. My love for you is as constant as the rising sun."
+    },
+    {
+      "mbti": "ESFP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESFP (The Performer) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESFP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESFP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    },
+    {
+      "mbti": "ESTP",
+      "title": "The Performer",
+      "summary": "A playful and energetic dog who loves to make others happy. ESTP (The Entrepreneur) dogs are highly social and optimistic.",
+      "traits": {
+        "title": "Key Traits & Communication Style",
+        "description": "They're known for their boundless energy and ability to make friends with everyone they meet.",
+        "points": [
+          {
+            "heading": "Highly Curious",
+            "text": "ESTP dogs are always looking for a new adventure. They get bored easily, so they need a variety of activities and toys to stay entertained. They thrive on change and spontaneity."
+          },
+          {
+            "heading": "Loves to Socialize",
+            "text": "ESTP dogs are the life of the party. They love to meet new people and other dogs, and will often try to be the center of attention. They're the kind of dog that will make friends with everyone they meet."
+          },
+          {
+            "heading": "Expressive",
+            "text": "They're not shy about what they want. They'll bark to get your attention or bring you a toy to initiate playtime. Their communication style is clear, direct, and often very insistent."
+          }
+        ]
+      },
+      "guide": {
+        "title": "Recommended Training & Care",
+        "points": [
+          {
+            "heading": "Variety is Key",
+            "text": "Mix up their training with different tricks and games to keep them engaged. They thrive on novelty and new challenges."
+          },
+          {
+            "heading": "Adequate Activity",
+            "text": "They need plenty of physical and mental stimulation. Daily walks, runs, and playtime are essential for keeping them happy and out of trouble."
+          },
+          {
+            "heading": "Set Boundaries",
+            "text": "Their curious nature can get them into trouble, so it's important to set clear boundaries. This will help them understand what's safe and what's not."
+          }
+        ]
+      },
+      "message": "Dear family, let's explore! I know I'm a handful sometimes, but it's just because my mind is always moving. I want to learn everything about the world and share it with you. Thank you for your patience. You're the best partners in crime a dog could ask for."
+    }
+  ]
+}
