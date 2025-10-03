@@ -1,14 +1,21 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { useLocation } from 'wouter';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { LanguageToggle } from '@/components/LanguageToggle';
 import heroImage from '@assets/generated_images/Happy_dogs_playing_together_47431bb9.png';
 import { PawPrint, Heart, Sparkles } from 'lucide-react';
 
 export default function Home() {
   const [, setLocation] = useLocation();
+  const { t } = useLanguage();
 
   return (
     <div className="min-h-screen bg-background">
+      <div className="fixed top-4 right-4 z-50">
+        <LanguageToggle />
+      </div>
+      
       <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center"
@@ -19,11 +26,11 @@ export default function Home() {
         
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6">
-            🐾 나의 강아지 MBTI
+            🐾 {t('home.title')}
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-            우리 강아지는 어떤 성격일까?<br />
-            60개 질문으로 알아보는 반려견 성격 테스트
+            {t('home.subtitle')}<br />
+            {t('home.description')}
           </p>
           <Button
             size="lg"
@@ -32,26 +39,23 @@ export default function Home() {
             data-testid="button-start-test"
           >
             <Sparkles className="w-5 h-5 mr-2" />
-            테스트 시작하기
+            {t('home.startButton')}
           </Button>
-          <p className="text-white/70 mt-4 text-sm">
-            ✨ 이미 <span className="font-bold text-primary">50만 명</span>이 테스트했어요!
-          </p>
         </div>
       </section>
 
       <section className="py-20 px-4 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-12">
-            테스트로 알 수 있는 것
+            {t('home.features.title')}
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="hover-elevate">
               <CardContent className="pt-8 text-center">
                 <PawPrint className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <h3 className="text-xl font-bold mb-3">성격 유형</h3>
+                <h3 className="text-xl font-bold mb-3">{t('home.features.types')}</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  16가지 성격 유형 중 우리 강아지의 MBTI를 정확하게 분석해요
+                  {t('home.features.typesDesc')}
                 </p>
               </CardContent>
             </Card>
@@ -59,9 +63,9 @@ export default function Home() {
             <Card className="hover-elevate">
               <CardContent className="pt-8 text-center">
                 <Heart className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <h3 className="text-xl font-bold mb-3">숨은 감정</h3>
+                <h3 className="text-xl font-bold mb-3">{t('home.features.questions')}</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  겉으로 드러나지 않는 강아지의 진짜 마음을 알려드려요
+                  {t('home.features.questionsDesc')}
                 </p>
               </CardContent>
             </Card>
@@ -69,9 +73,9 @@ export default function Home() {
             <Card className="hover-elevate">
               <CardContent className="pt-8 text-center">
                 <Sparkles className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <h3 className="text-xl font-bold mb-3">추천 놀이</h3>
+                <h3 className="text-xl font-bold mb-3">{t('home.features.detailed')}</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  우리 강아지 성격에 딱 맞는 놀이와 활동을 추천해드려요
+                  {t('home.features.detailedDesc')}
                 </p>
               </CardContent>
             </Card>
@@ -106,11 +110,8 @@ export default function Home() {
       <section className="py-20 px-4 bg-primary/5">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-            우리 강아지를 더 잘 이해하고 싶다면?
+            {t('home.subtitle')}
           </h2>
-          <p className="text-lg text-muted-foreground mb-8">
-            지금 바로 테스트를 시작해보세요
-          </p>
           <Button
             size="lg"
             className="text-lg px-8 py-6 h-auto font-bold"
@@ -118,7 +119,7 @@ export default function Home() {
             data-testid="button-start-test-bottom"
           >
             <Sparkles className="w-5 h-5 mr-2" />
-            테스트 시작하기
+            {t('home.startButton')}
           </Button>
         </div>
       </section>

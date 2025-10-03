@@ -3,17 +3,21 @@ import { useLocation } from 'wouter';
 import { Button } from '@/components/ui/button';
 import QuestionCard from '@/components/QuestionCard';
 import ProgressBar from '@/components/ProgressBar';
-import { questions } from '@shared/questions';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { LanguageToggle } from '@/components/LanguageToggle';
+import { getQuestions } from '@shared/i18n';
 import { calculateMBTI } from '@shared/personalityTypes';
 import { ChevronLeft } from 'lucide-react';
 
 export default function Test() {
   const [, setLocation] = useLocation();
+  const { language, t } = useLanguage();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [isProcessing, setIsProcessing] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
+  const questions = getQuestions(language);
   const currentQuestion = questions[currentQuestionIndex];
   const currentAnswer = currentQuestion ? (answers[currentQuestion.id] || null) : null;
 
@@ -83,10 +87,14 @@ export default function Test() {
 
   return (
     <div className="min-h-screen bg-background py-8 px-4">
+      <div className="fixed top-4 right-4 z-50">
+        <LanguageToggle />
+      </div>
+      
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
           <h1 className="text-2xl md:text-3xl font-display font-bold text-center mb-6">
-            🐾 강아지 MBTI 테스트
+            🐾 {t('home.title')}
           </h1>
           <ProgressBar 
             current={currentQuestionIndex + 1} 
@@ -114,7 +122,7 @@ export default function Test() {
             data-testid="button-previous"
           >
             <ChevronLeft className="w-4 h-4 mr-2" />
-            이전
+            {language === 'ko' ? '이전' : 'Previous'}
           </Button>
         </div>
       </div>

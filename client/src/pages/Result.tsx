@@ -3,15 +3,19 @@ import { useLocation } from 'wouter';
 import { Button } from '@/components/ui/button';
 import PersonalityCard from '@/components/PersonalityCard';
 import ShareButtons from '@/components/ShareButtons';
-import { personalityTypes } from '@shared/personalityTypes';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { LanguageToggle } from '@/components/LanguageToggle';
+import { getPersonalityTypes } from '@shared/i18n';
 import { Home, RefreshCw } from 'lucide-react';
 
 export default function Result() {
   const [, setLocation] = useLocation();
+  const { language, t } = useLanguage();
   
   const params = new URLSearchParams(window.location.search);
   const mbtiType = params.get('type') || 'ENFP';
   
+  const personalityTypes = getPersonalityTypes(language);
   const personality = personalityTypes[mbtiType];
 
   useEffect(() => {
@@ -26,13 +30,17 @@ export default function Result() {
 
   return (
     <div className="min-h-screen bg-background py-12 px-4">
+      <div className="fixed top-4 right-4 z-50">
+        <LanguageToggle />
+      </div>
+      
       <div className="max-w-4xl mx-auto space-y-8">
         <div className="text-center">
           <h1 className="text-3xl md:text-4xl font-display font-bold mb-4">
-            테스트 결과
+            {language === 'ko' ? '테스트 결과' : 'Test Results'}
           </h1>
           <p className="text-muted-foreground">
-            우리 강아지의 성격 유형을 확인해보세요!
+            {t('result.yourDog')}
           </p>
         </div>
 
@@ -40,7 +48,7 @@ export default function Result() {
 
         <div className="space-y-4">
           <div className="text-center">
-            <h3 className="text-xl font-bold mb-4">결과를 공유해보세요!</h3>
+            <h3 className="text-xl font-bold mb-4">{t('result.shareTitle')}</h3>
             <ShareButtons 
               mbtiType={personality.type}
               personalityName={personality.name}
@@ -56,7 +64,7 @@ export default function Result() {
             data-testid="button-retake"
           >
             <RefreshCw className="w-4 h-4 mr-2" />
-            다시 테스트하기
+            {t('result.retryButton')}
           </Button>
           <Button
             variant="outline"
@@ -65,7 +73,7 @@ export default function Result() {
             data-testid="button-home"
           >
             <Home className="w-4 h-4 mr-2" />
-            홈으로 가기
+            {language === 'ko' ? '홈으로 가기' : 'Go Home'}
           </Button>
         </div>
       </div>

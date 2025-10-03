@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { useLanguage } from '@/contexts/LanguageContext';
 import type { PersonalityType } from '@shared/personalityTypes';
 
 interface PersonalityCardProps {
@@ -7,6 +8,8 @@ interface PersonalityCardProps {
 }
 
 export default function PersonalityCard({ personality }: PersonalityCardProps) {
+  const { t } = useLanguage();
+  
   return (
     <Card className="w-full max-w-4xl mx-auto overflow-hidden">
       <div className={`h-2 bg-gradient-to-r ${personality.color}`} />
@@ -34,7 +37,7 @@ export default function PersonalityCard({ personality }: PersonalityCardProps) {
         <div>
           <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
             <span>🐾</span>
-            성격 특징
+            {t('result.characteristics')}
           </h3>
           <ul className="space-y-2">
             {personality.traits.map((trait, index) => (
@@ -94,7 +97,7 @@ export default function PersonalityCard({ personality }: PersonalityCardProps) {
         <div>
           <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
             <span>💭</span>
-            숨은 감정
+            {t('result.hiddenEmotions')}
           </h3>
           <ul className="space-y-2">
             {personality.hiddenEmotions.map((emotion, index) => (
@@ -109,7 +112,7 @@ export default function PersonalityCard({ personality }: PersonalityCardProps) {
         <div>
           <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
             <span>🎾</span>
-            추천 놀이
+            {t('result.recommendedActivities')}
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {personality.recommendedActivities.map((activity, index) => (
