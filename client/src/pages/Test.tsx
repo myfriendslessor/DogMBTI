@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'wouter';
 import { Button } from '@/components/ui/button';
 import QuestionCard from '@/components/QuestionCard';
@@ -11,6 +11,8 @@ export default function Test() {
   const [, setLocation] = useLocation();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
+  const [isProcessing, setIsProcessing] = useState(false);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const currentQuestion = questions[currentQuestionIndex];
   const currentAnswer = currentQuestion ? (answers[currentQuestion.id] || null) : null;
@@ -26,16 +28,38 @@ export default function Test() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [currentQuestionIndex]);
 
+  // 컴포넌트 언마운트 시 타이머 정리
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
+
   const handleAnswerSelect = (choiceId: string) => {
+    // 이미 처리 중이면 무시
+    if (isProcessing) {
+      return;
+    }
+
+    // 이전 타이머가 있으면 취소
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+
+    setIsProcessing(true);
+    
     setAnswers(prev => ({
       ...prev,
       [currentQuestion.id]: choiceId
     }));
     
     // 답변 선택 후 자동으로 다음 질문으로 이동
-    setTimeout(() => {
+    timeoutRef.current = setTimeout(() => {
       if (currentQuestionIndex < questions.length - 1) {
         setCurrentQuestionIndex(prev => prev + 1);
+        setIsProcessing(false);
       } else {
         const updatedAnswers = {
           ...answers,
