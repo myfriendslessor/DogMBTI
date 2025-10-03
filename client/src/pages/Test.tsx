@@ -16,6 +16,7 @@ export default function Test() {
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [isProcessing, setIsProcessing] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const isProcessingRef = useRef(false);
 
   const questions = getQuestions(language);
   const currentQuestion = questions[currentQuestionIndex];
@@ -42,8 +43,8 @@ export default function Test() {
   }, []);
 
   const handleAnswerSelect = (choiceId: string) => {
-    // 이미 처리 중이면 무시
-    if (isProcessing) {
+    // 이미 처리 중이면 무시 (useRef로 즉시 체크)
+    if (isProcessingRef.current) {
       return;
     }
 
@@ -52,6 +53,7 @@ export default function Test() {
       clearTimeout(timeoutRef.current);
     }
 
+    isProcessingRef.current = true;
     setIsProcessing(true);
     
     setAnswers(prev => ({
@@ -63,7 +65,13 @@ export default function Test() {
     timeoutRef.current = setTimeout(() => {
       if (currentQuestionIndex < questions.length - 1) {
         setCurrentQuestionIndex(prev => prev + 1);
-        setIsProcessing(false);
+        
+        // 질문 변경 후 150ms 동안 isProcessing 유지하여 
+        // 빠른 연속 클릭 방지
+        setTimeout(() => {
+          isProcessingRef.current = false;
+          setIsProcessing(false);
+        }, 150);
       } else {
         const updatedAnswers = {
           ...answers,
@@ -110,6 +118,7 @@ export default function Test() {
             choices={currentQuestion.choices}
             selectedAnswer={currentAnswer}
             onAnswerSelect={handleAnswerSelect}
+            disabled={isProcessing}
           />
         </div>
 

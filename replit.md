@@ -2,7 +2,30 @@
 
 ## Overview
 
-A Korean-language web application that provides an MBTI-style personality test for dogs. Users answer 60 questions about their dog's behavior to discover one of 16 personality types, complete with detailed characteristics, recommended activities, and social sharing features. The application is designed with a playful, viral-ready aesthetic inspired by successful Korean personality test platforms.
+A bilingual (Korean/English) web application that provides an MBTI-style personality test for dogs. Users answer 36 questions about their dog's behavior to discover one of 16 personality types, complete with detailed characteristics, training guides, and family messages. The application features auto-advance functionality (300ms delay) after answer selection and comprehensive rapid-click protection to prevent accidental double submissions.
+
+## Recent Updates (October 2025)
+
+**Bilingual Support Implementation**
+- Added LanguageContext with Korean/English toggle functionality
+- Created English translation files (personalityTypes.en.ts, questions.en.ts)
+- Implemented i18n helper functions (getPersonalityTypes, getQuestions)
+- Sample translations completed for 4 personality types (ENFP, ENTP, INFP, ISTP) and 10 questions
+- Language preference persists in localStorage
+
+**Rapid Click Protection**
+- Implemented four-layer protection system to prevent accidental double-clicks:
+  1. isProcessingRef (useRef): Immediate synchronous check
+  2. isProcessing state: Disables answer buttons during processing
+  3. CSS pointer-events: none: Prevents DOM-level clicks when disabled
+  4. 150ms post-advance debounce: Prevents clicks immediately after question transition
+- Total protection window: 450ms (300ms advance + 150ms debounce)
+- Note: Protection works correctly for same-button rapid clicks; sequential question advances are intentional behavior
+
+**MBTI Calculation Enhancement**
+- Method A: Per-axis independent calculation ensuring all 16 types are achievable
+- Weighted scoring system with threshold-based type determination
+- Each question contributes weighted scores to E/I, S/N, T/F, P/J dimensions
 
 ## User Preferences
 
