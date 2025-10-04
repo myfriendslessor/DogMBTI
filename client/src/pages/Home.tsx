@@ -86,20 +86,20 @@ export default function Home() {
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-12">
-            인기 성격 유형
+            {t('home.popularTypes')}
           </h2>
           <div className="grid md:grid-cols-4 gap-6">
             {[
-              { emoji: '🌟', type: 'ENFP', name: '별을 좇는 모험가' },
-              { emoji: '🎉', type: 'ESFP', name: '세상을 밝히는 축제꾼' },
-              { emoji: '🌙', type: 'INFP', name: '조용한 위로자' },
-              { emoji: '🕊', type: 'ISFJ', name: '헌신적인 수호자' },
+              { emoji: '🌟', type: 'ENFP' },
+              { emoji: '🎉', type: 'ESFP' },
+              { emoji: '🌙', type: 'INFP' },
+              { emoji: '🕊', type: 'ISFJ' },
             ].map((item) => (
               <Card key={item.type} className="hover-elevate cursor-pointer">
                 <CardContent className="pt-6 text-center">
                   <div className="text-4xl mb-3">{item.emoji}</div>
                   <div className="text-sm font-bold text-primary mb-1">{item.type}</div>
-                  <div className="text-sm text-foreground">{item.name}</div>
+                  <div className="text-sm text-foreground">{t(`home.type.${item.type}`)}</div>
                 </CardContent>
               </Card>
             ))}

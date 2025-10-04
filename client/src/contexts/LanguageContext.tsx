@@ -49,6 +49,13 @@ const translations = {
     'share.twitter': '트위터',
     'share.link': '링크 복사',
     'share.linkCopied': '링크가 복사되었습니다!',
+    
+    // Popular types
+    'home.popularTypes': '인기 성격 유형',
+    'home.type.ENFP': '별을 좇는 모험가',
+    'home.type.ESFP': '세상을 밝히는 축제꾼',
+    'home.type.INFP': '조용한 위로자',
+    'home.type.ISFJ': '헌신적인 수호자',
   },
   en: {
     // Home page
@@ -88,6 +95,13 @@ const translations = {
     'share.twitter': 'Twitter',
     'share.link': 'Copy Link',
     'share.linkCopied': 'Link copied!',
+    
+    // Popular types
+    'home.popularTypes': 'Popular Personality Types',
+    'home.type.ENFP': 'The Inspirer',
+    'home.type.ESFP': 'The Entertainer',
+    'home.type.INFP': 'The Idealist',
+    'home.type.ISFJ': 'The Protector',
   }
 };
 
