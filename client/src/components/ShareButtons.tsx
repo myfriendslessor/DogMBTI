@@ -1,6 +1,8 @@
 import { Button } from '@/components/ui/button';
 import { Share2, MessageCircle, Copy } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { getTranslations } from '@shared/i18n';
 
 interface ShareButtonsProps {
   mbtiType: string;
@@ -9,15 +11,17 @@ interface ShareButtonsProps {
 
 export default function ShareButtons({ mbtiType, personalityName }: ShareButtonsProps) {
   const { toast } = useToast();
+  const { language } = useLanguage();
+  const t = getTranslations(language);
 
   const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
-  const shareText = `나의 강아지 MBTI는 ${mbtiType} - ${personalityName}! 🐾`;
+  const shareText = t.share.shareText(mbtiType, personalityName);
 
   const handleKakaoShare = () => {
     console.log('KakaoTalk share clicked');
     toast({
-      title: "카카오톡 공유",
-      description: "카카오톡 공유 기능은 실제 앱에서 구현됩니다.",
+      title: t.share.kakaoToast.title,
+      description: t.share.kakaoToast.description,
     });
   };
 
@@ -25,8 +29,8 @@ export default function ShareButtons({ mbtiType, personalityName }: ShareButtons
     try {
       await navigator.clipboard.writeText(shareUrl);
       toast({
-        title: "링크 복사 완료!",
-        description: "결과 링크가 클립보드에 복사되었습니다.",
+        title: t.share.copySuccess.title,
+        description: t.share.copySuccess.description,
       });
     } catch (err) {
       console.error('Failed to copy:', err);
@@ -37,7 +41,7 @@ export default function ShareButtons({ mbtiType, personalityName }: ShareButtons
     if (navigator.share) {
       try {
         await navigator.share({
-          title: '강아지 MBTI 테스트 결과',
+          title: t.share.shareTitle,
           text: shareText,
           url: shareUrl,
         });
@@ -57,7 +61,7 @@ export default function ShareButtons({ mbtiType, personalityName }: ShareButtons
         data-testid="button-share-kakao"
       >
         <MessageCircle className="w-4 h-4 mr-2" />
-        카카오톡 공유
+        {t.share.kakao}
       </Button>
       
       <Button
@@ -67,7 +71,7 @@ export default function ShareButtons({ mbtiType, personalityName }: ShareButtons
         data-testid="button-share-general"
       >
         <Share2 className="w-4 h-4 mr-2" />
-        결과 공유하기
+        {t.share.general}
       </Button>
 
       <Button
@@ -77,7 +81,7 @@ export default function ShareButtons({ mbtiType, personalityName }: ShareButtons
         data-testid="button-copy-link"
       >
         <Copy className="w-4 h-4 mr-2" />
-        링크 복사
+        {t.share.copyLink}
       </Button>
     </div>
   );
