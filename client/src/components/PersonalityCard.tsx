@@ -173,7 +173,7 @@ export default function PersonalityCard({ personality }: PersonalityCardProps) {
           <div className="border-t pt-8">
             <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
               <span>💌</span>
-              가족에게 보내는 메시지
+              {t('result.message')}
             </h3>
             <div className="bg-muted/50 rounded-lg p-6">
               <p className="text-foreground leading-relaxed italic">
