@@ -3,6 +3,42 @@ import { Badge } from '@/components/ui/badge';
 import { useLanguage } from '@/contexts/LanguageContext';
 import type { PersonalityType } from '@shared/personalityTypes';
 
+import enfj from '@assets/ENFJ_1759816835952.png';
+import enfp from '@assets/ENFP_1759816835953.png';
+import entj from '@assets/ENTJ_1759816835953.png';
+import entp from '@assets/ENTP_1759816835953.png';
+import esfj from '@assets/ESFJ_1759816835954.png';
+import esfp from '@assets/ESFP_1759816835954.png';
+import estj from '@assets/ESTJ_1759816835954.png';
+import estp from '@assets/ESTP_1759816835955.png';
+import infj from '@assets/INFJ_1759816835955.png';
+import infp from '@assets/INFP_1759816835956.png';
+import intj from '@assets/INTJ_1759816835956.png';
+import intp from '@assets/INTP_1759816835956.png';
+import isfj from '@assets/ISFJ_1759816835957.png';
+import isfp from '@assets/ISFP_1759816835957.png';
+import istj from '@assets/ISTJ_1759816835957.png';
+import istp from '@assets/ISTP_1759816835958.png';
+
+const mbtiImages: Record<string, string> = {
+  ENFJ: enfj,
+  ENFP: enfp,
+  ENTJ: entj,
+  ENTP: entp,
+  ESFJ: esfj,
+  ESFP: esfp,
+  ESTJ: estj,
+  ESTP: estp,
+  INFJ: infj,
+  INFP: infp,
+  INTJ: intj,
+  INTP: intp,
+  ISFJ: isfj,
+  ISFP: isfp,
+  ISTJ: istj,
+  ISTP: istp,
+};
+
 interface PersonalityCardProps {
   personality: PersonalityType;
 }
@@ -15,7 +51,14 @@ export default function PersonalityCard({ personality }: PersonalityCardProps) {
       <div className={`h-2 bg-gradient-to-r ${personality.color}`} />
       
       <CardHeader className="text-center space-y-4 pt-8">
-        <div className="text-6xl mb-4">{personality.emoji}</div>
+        <div className="flex justify-center mb-4">
+          <img 
+            src={mbtiImages[personality.type]} 
+            alt={personality.type}
+            className="w-48 h-48 object-contain"
+            data-testid={`img-mbti-${personality.type.toLowerCase()}`}
+          />
+        </div>
         <Badge variant="secondary" className="mx-auto text-lg px-4 py-1">
           {personality.type}
         </Badge>
