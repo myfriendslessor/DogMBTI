@@ -55,7 +55,7 @@ export default function PersonalityCard({ personality }: PersonalityCardProps) {
           <img 
             src={mbtiImages[personality.type]} 
             alt={personality.type}
-            className="w-48 h-48 object-contain"
+            className="w-[576px] h-[576px] object-contain"
             data-testid={`img-mbti-${personality.type.toLowerCase()}`}
           />
         </div>
