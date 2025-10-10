@@ -3,7 +3,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { useLocation } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { LanguageToggle } from '@/components/LanguageToggle';
-import heroImage from '@assets/generated_images/Happy_dogs_playing_together_47431bb9.png';
+import heroImage from '@assets/Gemini_Generated_Image_yyiaq1yyiaq1yyia (1)_1760107423035.png';
 import { PawPrint, Heart, Sparkles } from 'lucide-react';
 
 export default function Home() {
