@@ -32,11 +32,11 @@ export default function Home() {
             {t('home.subtitle')}<br />
             {t('home.description')}
           </p>
-          <div className="text-white/95 text-base md:text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
-            <p className="mb-3">내 강아지는 어떤 성격일까요?</p>
-            <p className="mb-3">강아지들도 사람처럼 성격이 다 다릅니다!</p>
-            <p className="mb-3">'강아지 MBTI'는 귀여운 질문 몇 가지로</p>
-            <p>우리 멍멍이의 숨은 성격과 마음을 알아보는 테스트예요.</p>
+          <div className="text-white/95 text-xl md:text-2xl leading-relaxed mb-8 max-w-2xl mx-auto">
+            <p className="mb-3">{t('home.intro.line1')}</p>
+            <p className="mb-3">{t('home.intro.line2')}</p>
+            <p className="mb-3">{t('home.intro.line3')}</p>
+            <p>{t('home.intro.line4')}</p>
           </div>
           <Button
             size="lg"
