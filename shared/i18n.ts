@@ -8,6 +8,7 @@ export const translations = {
   ko: {
     share: {
       kakao: '카카오톡 공유',
+      whatsapp: 'WhatsApp 공유',
       general: '결과 공유하기',
       copyLink: '링크 복사',
       shareText: (mbtiType: string, name: string) => `나의 강아지 MBTI는 ${mbtiType} - ${name}! 🐾`,
@@ -25,6 +26,7 @@ export const translations = {
   en: {
     share: {
       kakao: 'Share on KakaoTalk',
+      whatsapp: 'Share on WhatsApp',
       general: 'Share Results',
       copyLink: 'Copy Link',
       shareText: (mbtiType: string, name: string) => `My dog's MBTI is ${mbtiType} - ${name}! 🐾`,
