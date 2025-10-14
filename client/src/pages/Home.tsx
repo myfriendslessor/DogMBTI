@@ -32,39 +32,6 @@ export default function Home() {
             {t('home.subtitle')}<br />
             {t('home.description')}
           </p>
-          
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 mb-8 text-white">
-            <p className="text-lg md:text-xl leading-relaxed mb-4">
-              {t('home.intro.line1')}<br />
-              {t('home.intro.line2')}<br />
-              {t('home.intro.line3')}<br />
-              {t('home.intro.line4')}
-            </p>
-            
-            <p className="text-lg font-semibold mb-3">{t('home.intro.after')}</p>
-            <div className="text-left max-w-xl mx-auto space-y-2 mb-4">
-              <p className="flex items-start gap-2">
-                <span>🐾</span>
-                <span>{t('home.intro.item1')}</span>
-              </p>
-              <p className="flex items-start gap-2">
-                <span>🎾</span>
-                <span>{t('home.intro.item2')}</span>
-              </p>
-              <p className="flex items-start gap-2">
-                <span>💛</span>
-                <span>{t('home.intro.item3')}</span>
-              </p>
-              {t('home.intro.item4') && (
-                <p className="text-center">{t('home.intro.item4')}</p>
-              )}
-            </div>
-            
-            <p className="text-lg md:text-xl leading-relaxed font-semibold">
-              {t('home.intro.ready')}
-            </p>
-          </div>
-
           <Button
             size="lg"
             className="text-lg px-8 py-6 h-auto font-bold"

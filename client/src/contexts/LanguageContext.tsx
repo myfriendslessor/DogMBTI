@@ -16,16 +16,6 @@ const translations = {
     'home.title': '강아지 MBTI 테스트',
     'home.subtitle': '우리 강아지의 숨겨진 성격을 알아보세요',
     'home.description': '36개의 질문으로 강아지의 MBTI 성격 유형을 분석합니다',
-    'home.intro.line1': '우리 강아지는 어떤 성격일까요?',
-    'home.intro.line2': '강아지들도 사람처럼 성격이 다 다릅니다!',
-    'home.intro.line3': '\'강아지 MBTI\'는 질문 몇 가지로',
-    'home.intro.line4': '우리 멍멍이의 숨은 성격과 마음을 알아보는 테스트입니다.',
-    'home.intro.after': '테스트가 끝나면,',
-    'home.intro.item1': '성격 유형별 분석 리포트',
-    'home.intro.item2': '어울리는 놀이 & 훈련 팁',
-    'home.intro.item3': '보호자에게 전하는 감동 메시지',
-    'home.intro.item4': '까지 한 번에 만나볼 수 있어요!',
-    'home.intro.ready': '우리 강아지의 진짜 마음속을 들여다볼 준비, 되셨나요?',
     'home.startButton': '테스트 시작하기',
     'home.features.title': '테스트 특징',
     'home.features.questions': '36개의 세심한 질문',
@@ -72,16 +62,6 @@ const translations = {
     'home.title': 'Dog MBTI Test',
     'home.subtitle': 'Discover Your Dog\'s Hidden Personality',
     'home.description': 'Analyze your dog\'s MBTI personality type with 36 questions',
-    'home.intro.line1': 'What\'s your dog\'s personality type?',
-    'home.intro.line2': 'Just like humans, every dog has a unique character!',
-    'home.intro.line3': 'With a few fun questions, Dog MBTI helps you discover',
-    'home.intro.line4': 'your pup\'s hidden traits and emotional world.',
-    'home.intro.after': 'After the test, you\'ll get:',
-    'home.intro.item1': 'A detailed personality report',
-    'home.intro.item2': 'Playtime & training tips tailored to your dog',
-    'home.intro.item3': 'A heartfelt message "from your dog to you"',
-    'home.intro.item4': '',
-    'home.intro.ready': 'Ready to peek into your dog\'s heart? Let\'s begin! 🐕',
     'home.startButton': 'Start Test',
     'home.features.title': 'Test Features',
     'home.features.questions': '36 Thoughtful Questions',
@@ -128,7 +108,7 @@ const translations = {
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>(() => {
     const saved = localStorage.getItem('dogMbtiLanguage');
-    return (saved === 'ko' ? 'ko' : 'en') as Language;
+    return (saved === 'en' ? 'en' : 'ko') as Language;
   });
 
   useEffect(() => {

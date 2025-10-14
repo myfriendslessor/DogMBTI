@@ -37,12 +37,6 @@ export default function ShareButtons({ mbtiType, personalityName }: ShareButtons
     }
   };
 
-  const handleWhatsAppShare = () => {
-    const whatsappText = encodeURIComponent(`${shareText}\n${shareUrl}`);
-    const whatsappUrl = `https://wa.me/?text=${whatsappText}`;
-    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
-  };
-
   const handleGeneralShare = async () => {
     if (navigator.share) {
       try {
@@ -68,15 +62,6 @@ export default function ShareButtons({ mbtiType, personalityName }: ShareButtons
       >
         <MessageCircle className="w-4 h-4 mr-2" />
         {t.share.kakao}
-      </Button>
-
-      <Button
-        onClick={handleWhatsAppShare}
-        className="bg-[#25D366] hover:bg-[#1DA851] text-white font-semibold min-w-[200px]"
-        data-testid="button-share-whatsapp"
-      >
-        <MessageCircle className="w-4 h-4 mr-2" />
-        {t.share.whatsapp}
       </Button>
       
       <Button
