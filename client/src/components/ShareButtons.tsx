@@ -40,7 +40,7 @@ export default function ShareButtons({ mbtiType, personalityName }: ShareButtons
   const handleWhatsAppShare = () => {
     const whatsappText = encodeURIComponent(`${shareText}\n${shareUrl}`);
     const whatsappUrl = `https://wa.me/?text=${whatsappText}`;
-    window.open(whatsappUrl, '_blank');
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   };
 
   const handleGeneralShare = async () => {
