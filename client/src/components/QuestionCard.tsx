@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { useLanguage } from '@/contexts/LanguageContext';
 import type { Choice } from '@shared/questions';
 
 interface QuestionCardProps {
@@ -21,12 +22,14 @@ export default function QuestionCard({
   onAnswerSelect,
   disabled = false
 }: QuestionCardProps) {
+  const { t } = useLanguage();
+  
   return (
     <Card className="w-full max-w-2xl mx-auto shadow-lg">
       <CardHeader className="space-y-4">
         <div className="text-center">
           <p className="text-sm text-muted-foreground mb-2">
-            질문 {questionNumber} / {totalQuestions}
+            {t('test.progress')} {questionNumber} / {totalQuestions}
           </p>
           <h2 className="text-xl md:text-2xl font-bold leading-relaxed">
             {questionText}
