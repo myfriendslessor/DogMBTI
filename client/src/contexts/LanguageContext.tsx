@@ -116,7 +116,7 @@ const translations = {
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>(() => {
     const saved = localStorage.getItem('dogMbtiLanguage');
-    return (saved === 'en' ? 'en' : 'ko') as Language;
+    return (saved === 'ko' ? 'ko' : 'en') as Language;
   });
 
   useEffect(() => {

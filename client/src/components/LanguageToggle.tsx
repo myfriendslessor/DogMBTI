@@ -12,16 +12,13 @@ export function LanguageToggle() {
   return (
     <Button
       variant="outline"
-      size="icon"
+      size="default"
       onClick={toggleLanguage}
       data-testid="button-language-toggle"
-      className="relative scale-[2] origin-top-right"
+      className="font-medium"
     >
-      <Languages className="h-4 w-4" />
-      <span className="sr-only">Toggle language</span>
-      <span className="absolute -bottom-1 -right-1 text-[10px] font-bold bg-background border border-border rounded px-1">
-        {language.toUpperCase()}
-      </span>
+      <Languages className="h-4 w-4 mr-2" />
+      {language === 'ko' ? 'English' : 'Korean'}
     </Button>
   );
 }
